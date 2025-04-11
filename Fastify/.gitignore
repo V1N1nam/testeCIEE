@@ -1,0 +1,1 @@
+DATABASE_URL = 'postgresql://Animais_owner:npg_i9sA1BncMGVR@ep-tiny-hat-acb9nrtw-pooler.sa-east-1.aws.neon.tech/Animais?sslmode=require'
