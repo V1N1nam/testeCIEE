@@ -14,4 +14,15 @@ function tabelaAnimais() {
   });
 }
 
-tabelaAnimais();
+function tabelaCuidados() {
+  sql`
+  CREATE TABLE cuidados (
+  nome_cuidado TEXT,
+  descricao TEXT,
+  frequencia TEXT
+  )`.then(() => {
+    console.log("Tabela Criada");
+  });
+}
+
+tabelaCuidados();
