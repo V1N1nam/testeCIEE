@@ -12,6 +12,7 @@
   "license": "ISC",
   "description": "Projeto Fastify com Node.js",
   "dependencies": {
+    "@fastify/cors": "^11.0.1",
     "@neondatabase/serverless": "^1.0.0",
     "dotenv": "^16.5.0",
     "fastify": "^5.2.2"
